@@ -78,3 +78,18 @@
   - 通兑：item关联>=2个shid
   - 服务标签区标签排序规则已明确
   - 节假日可住标签迭代：优先长假期
+
+## [2026-04-14 20:30] ingest | 套餐商品详情页改版1.0（仅更新囤好货+媒体容器）
+- Source type: dingtalk_doc
+- Source URL: https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kKL2Xb0H29q6rAL83bzYmDO
+- Raw file: raw/dingtalk-oP0MALyR8kKL2Xb0H29q6rAL83bzYmDO.md
+- Pages updated:
+  - media-container（模块1：媒体容器区域）← 详细补充
+  - stock-up-tag-area（模块7：囤好货标签区）← 详细补充
+  - source-detail-page-prd（源摘要页）
+  - index.md
+- Key insights:
+  - 媒体容器：导航栏位置变更、模块顺序调整（大促/非大促不同）、酒店图片上限<=5张
+  - 囤好货规则：slogan变更（先囤后约、不约可退、过期可退）、新增可住日历
+  - 可住日历：仅单店&单sku才透出，外露30天
+- Note: 按用户要求仅更新囤好货规则和头部媒体容器，其他模块未新增
