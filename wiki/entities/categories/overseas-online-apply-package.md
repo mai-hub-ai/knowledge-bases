@@ -1,0 +1,38 @@
+---
+title: "境外在线申请套餐"
+type: entity
+tags: ["#domain/trade", "#domain/detail"]
+created: 2026-04-14
+updated: 2026-04-14
+sources: ["raw/dingtalk-93NwLYZXWyZPdyb1CdZ6Xo47VkyEqBQm.md"]
+category_id: "202032304"
+category_type: "含房类目"
+status: "active"
+---
+# 境外在线申请套餐
+
+## 概述
+境外在线申请套餐是支持用户在线申请的境外套餐类目。
+
+## 核心属性
+
+| 属性 | 值 |
+|------|-----|
+| 类目ID | 202032304 |
+| 类目类型 | 含房类目 |
+| 地域范围 | 境外 |
+| 状态 | 活跃 |
+
+## 支持的预约方式
+- 待补充
+
+## 关联实体
+- [[境外酒店套餐]]
+- [[在线预约套餐]]
+
+## 相关概念
+- [[类目分类体系]]
+- [[预约方式]]
+
+## 参考资料
+- [[source-category-ids]]
