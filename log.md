@@ -120,3 +120,19 @@
   - 两种模式可出现在同一商品中
   - 即买即约入口在商品详情页开始
   - 下单页分为四种类型：先囤后约、即买即约双Tab、日历预订、境外
+
+## [2026-04-14 21:30] update | 即买即约准入规则变更（白名单→黑名单）
+- Source type: dingtalk_doc
+- Source URL: https://alidocs.dingtalk.com/i/nodes/NZQYprEoWoDjdZb1IP1ZO0KRV1waOeDk
+- Pages created:
+  - source-即买即约全量配置（源摘要页）
+- Pages updated:
+  - booking-method（概念页：预约方式）← 准入规则变更
+  - index.md
+- Key changes:
+  - 准入机制：白名单 → 黑名单
+  - 默认支持：在线预约在售的国内套餐商品均支持即买即约
+  - 新增不支持类型：定金预售、未到预约有效期商品、日历预订的品
+  - 权益配置：可选（非必需）
+  - 下单页Tab文案：支持自定义，兜底"火爆抢约 早订安心"
+- Warning: 全量后不校验商品实际价库，可能存在日历约满场景
