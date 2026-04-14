@@ -93,3 +93,30 @@
   - 囤好货规则：slogan变更（先囤后约、不约可退、过期可退）、新增可住日历
   - 可住日历：仅单店&单sku才透出，外露30天
 - Note: 按用户要求仅更新囤好货规则和头部媒体容器，其他模块未新增
+
+## [2026-04-14 21:00] ingest | 即买即约PRD + 迭代需求
+- Source type: dingtalk_doc
+- Source URLs:
+  - https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2xZ1dypI1onoM558B5r9YAn
+  - https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXYDdEa4tQ0a4BDzJMwvDqPk
+- Pages created:
+  - source-即买即约PRD（源摘要页）
+  - source-即买即约迭代（源摘要页）
+  - order-page-overview（页面实体：下单页概览）
+  - stock-up-order-page（页面实体：先囤后约下单页）
+  - buy-and-book-order-page（页面实体：即买即约双Tab下单页）
+  - calendar-order-page（页面实体：日历预订下单页）
+  - overseas-order-page（页面实体：境内外酒店套餐下单页）
+  - buy-and-book-calendar-page（页面实体：即买即约日历页）
+- Pages updated:
+  - booking-method（概念页：预约方式）← 补充即买即约详解
+  - package-detail-page（页面实体：套餐详情页）← 补充即买即约入口判断
+  - index.md
+- Entities extracted: 6（下单页概览 + 4种下单页 + 即买即约日历页）
+- Concepts extracted: 0（更新现有概念页）
+- Key insights:
+  - 即买即约：用户购买时直接创建套餐单+日历单
+  - 先囤后约：传统模式，购买凭证后预约
+  - 两种模式可出现在同一商品中
+  - 即买即约入口在商品详情页开始
+  - 下单页分为四种类型：先囤后约、即买即约双Tab、日历预订、境外
