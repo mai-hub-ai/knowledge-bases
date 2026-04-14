@@ -56,3 +56,25 @@
 - Entities extracted: 15（1页面 + 14模块）
 - Key insight: 详情页14模块框架已建立，待补充详细信息
 - Note: Figma链接当前无法直接访问
+
+## [2026-04-14 20:15] ingest | 业务语义字典 + 服务标签区补充
+- Source type: dingtalk_doc + user_input
+- Source URLs:
+  - 钉钉: https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMpxeYDohKK2m1YyVyMoPYe1
+  - 用户输入: 语义字典+标签补充
+- Raw files:
+  - raw/dingtalk-kDnRL6jAJMpxeYDohKK2m1YyVyMoPYe1.md
+  - raw/user-input-semantics-and-tags.md
+- Pages created:
+  - product-semantics（概念页：业务语义字典）
+  - source-service-tag-config（源摘要页）
+  - source-semantics-and-tags（源摘要页）
+- Pages updated:
+  - service-tag-area（模块5：服务标签区）← 详细补充
+  - index.md, onboarding.md
+- Concepts extracted: 1（业务语义字典：单店/通兑）
+- Key insights:
+  - 单店：item关联1个shid
+  - 通兑：item关联>=2个shid
+  - 服务标签区标签排序规则已明确
+  - 节假日可住标签迭代：优先长假期
