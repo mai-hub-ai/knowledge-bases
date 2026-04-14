@@ -136,3 +136,22 @@
   - 权益配置：可选（非必需）
   - 下单页Tab文案：支持自定义，兜底"火爆抢约 早订安心"
 - Warning: 全量后不校验商品实际价库，可能存在日历约满场景
+
+## [2026-04-14 22:00] analysis | 即买即约项目数据分析复盘
+- Source type: dingtalk_doc
+- Source URL: https://alidocs.dingtalk.com/i/nodes/mExel2BLV5w036yZhbwdKGQx8gk9rpMq
+- Pages created:
+  - analyses/buy-and-book-data-review.md（分析页：即买即约项目数据分析复盘）
+  - source-即买即约数据复盘（源摘要页）
+- Pages updated: index.md
+- Key insights:
+  - 有权益SKU增量效果显著优于无权益SKU（42% vs 25%）
+  - 权益是即买即约成功的关键因素
+  - 日历页自动锚定日期使点击日期比例提升69%
+  - 下单页权益气泡引导使切换比例提升50%
+  - 挽留弹窗挽留率约5%
+- Analysis methods:
+  - AB实验增量计算
+  - 漏斗分析框架
+  - 分层对比法
+  - 用户行为洞察
