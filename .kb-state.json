@@ -1,7 +1,7 @@
 {
   "kb_name": "fliggy-hotel-package-kb",
   "created_at": "2026-04-14T19:35:00Z",
-  "last_updated": "2026-04-14T19:45:00Z",
+  "last_updated": "2026-04-14T20:00:00Z",
   "domain": "飞猪酒店套餐产品",
   "product_scope": "频道页 → 酒店日历页 → 套餐详情页 → 套餐SKU浮层 → 下单页",
   "core_goal": "提升D2O转化率",
@@ -13,18 +13,25 @@
       "node_id": "93NwLYZXWyZPdyb1CdZ6Xo47VkyEqBQm",
       "raw_file": "raw/dingtalk-93NwLYZXWyZPdyb1CdZ6Xo47VkyEqBQm.md",
       "ingested_at": "2026-04-14T19:45:00Z"
+    },
+    {
+      "name": "套餐详情页模块结构",
+      "type": "user_input",
+      "figma_url": "https://www.figma.com/design/Ie64fxMQEYOqMfhyiRhyKU/Untitled?node-id=2-651",
+      "raw_file": "raw/detail-page-modules-structure.md",
+      "ingested_at": "2026-04-14T20:00:00Z"
     }
   ],
   "stats": {
-    "total_pages": 13,
-    "total_sources": 1,
-    "entities": 6,
+    "total_pages": 28,
+    "total_sources": 2,
+    "entities": 21,
     "concepts": 2,
     "topics": 0
   },
   "pending_tasks": [
-    "完善各类目支持的预约方式",
-    "摄入页面流程相关文档"
+    "补充详情页14个模块的详细信息",
+    "完善各类目支持的预约方式"
   ],
   "git_repo": "https://github.com/mai-hub-ai/knowledge-bases.git"
 }

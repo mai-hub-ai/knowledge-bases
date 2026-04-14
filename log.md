@@ -30,3 +30,29 @@
 - Entities extracted: 6（含房类目4个，含餐/服务类目2个）
 - Concepts extracted: 2（类目分类体系、预约方式）
 - Key insight: 类目 ≠ 预约方式，电子凭证/日历套餐是预约方式而非类目
+
+## [2026-04-14 20:00] ingest | 套餐详情页模块结构
+- Source type: user_input
+- Figma链接: https://www.figma.com/design/Ie64fxMQEYOqMfhyiRhyKU/Untitled?node-id=2-651
+- Raw file: raw/detail-page-modules-structure.md
+- Pages created:
+  - source-detail-page-modules（源摘要页）
+  - package-detail-page（页面实体页）
+  - media-container（模块1：媒体容器区域）
+  - price-area（模块2：价格区域）
+  - brand-mind-area（模块3：品牌心智区）
+  - header-info-area（模块4：头部信息区）
+  - service-tag-area（模块5：服务标签区）
+  - ranking-tag（模块6：榜单标签）
+  - stock-up-tag-area（模块7：囤好货标签区）
+  - date-selector-area（模块8：日期选择区）
+  - calendar-component（模块9：日历组件）
+  - package-selector-area（模块10：套餐选择区）
+  - package-benefit-area（模块11：套餐权益描述区）
+  - product-review-area（模块12：商品评价区）
+  - shop-info-area（模块13：店铺信息区）
+  - bottom-action-bar（模块14：底部操作栏）
+- Pages updated: index.md, onboarding.md
+- Entities extracted: 15（1页面 + 14模块）
+- Key insight: 详情页14模块框架已建立，待补充详细信息
+- Note: Figma链接当前无法直接访问
