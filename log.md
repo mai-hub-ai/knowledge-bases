@@ -155,3 +155,23 @@
   - 漏斗分析框架
   - 分层对比法
   - 用户行为洞察
+
+## [2026-04-14 22:30] ingest | 酒店日历页套餐推荐模块
+- Source type: dingtalk_doc
+- Source URL: https://alidocs.dingtalk.com/i/nodes/mExel2BLV5w036yZhQAz5gqa8gk9rpMq
+- Pages created:
+  - hotel-calendar-page（页面实体：酒店日历页）
+  - package-recommend-module（模块实体：套餐推荐模块）
+  - source-酒店日历页套餐推荐模块（源摘要页）
+- Pages updated: index.md
+- Entities extracted: 2（酒店日历页、套餐推荐模块）
+- Key insights:
+  - 小搜detail页转化率优势明显（飞猪端6.65%）
+  - 套餐推荐模块分三个子模块：住宿套餐（SKU维度）、餐饮美食（Item维度）、玩乐套餐（Item维度）
+  - 排序加权因子：业务加权标、类目加权、销量、价格等
+  - 黑名单违规词：2人起订、单人、差价、补差、定金等
+- Business terms:
+  - 小搜：酒店日历域的开发同学
+  - ictag：商品标签
+  - shid：酒店ID
+  - cico：check-in check-out
