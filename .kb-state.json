@@ -1,0 +1,20 @@
+{
+  "kb_name": "fliggy-hotel-package-kb",
+  "created_at": "2026-04-14T19:35:00Z",
+  "last_updated": "2026-04-14T19:35:00Z",
+  "domain": "飞猪酒店套餐产品",
+  "product_scope": "频道页 → 酒店日历页 → 套餐详情页 → 套餐SKU浮层 → 下单页",
+  "core_goal": "提升D2O转化率",
+  "sources": [],
+  "stats": {
+    "total_pages": 4,
+    "total_sources": 0,
+    "entities": 0,
+    "concepts": 0,
+    "topics": 0
+  },
+  "pending_tasks": [
+    "等待用户发送源文档开始摄入"
+  ],
+  "git_repo": "https://github.com/mai-hub-ai/knowledge-bases.git"
+}

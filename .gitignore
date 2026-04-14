@@ -1,0 +1,4 @@
+.qmd/cache/
+*.DS_Store
+.~,*
+*.tmp
