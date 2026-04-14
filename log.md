@@ -175,3 +175,27 @@
   - ictag：商品标签
   - shid：酒店ID
   - cico：check-in check-out
+
+## [2026-04-14 23:00] ingest | 置顶套餐模块
+- Source type: dingtalk_doc
+- Source URL: https://alidocs.dingtalk.com/i/nodes/Obva6QBXJw23pY61HN55moyYVn4qY5Pr
+- Pages created:
+  - top-package-module（模块实体：置顶套餐模块）
+  - source-置顶套餐模块（源摘要页）
+- Pages updated:
+  - hotel-calendar-page（页面实体：酒店日历页）← 补充透出优先级
+- Entities extracted: 1（置顶套餐模块）
+- Key insights:
+  - 透出顺序：待预约套餐 > 置顶套餐 > G35 > 酒x > 日历房最低价
+  - 圈品池分类：裸房池（比价100%）、含优质X池（比价130%）
+  - 导购价格校验逻辑（用户补充）：
+    - 套餐vs日历房比价
+    - 特殊情况：含早/不含早找不到对应rate的处理
+    - 多sku择优：取券后价最低
+  - C端链路：从置顶坑位进入 → 商品详情页唤起SKU浮层 → 即买即约下单页
+- Business terms:
+  - 小搜：酒店日历域的开发同学
+  - cico：check-in check-out
+  - srid：房型rate ID
+  - nop：人数（number of people）
+  - 裸房/含X：不含/含X元素的套餐
