@@ -1,7 +1,7 @@
 {
   "kb_name": "fliggy-hotel-package-kb",
   "created_at": "2026-04-14T19:35:00Z",
-  "last_updated": "2026-04-14T20:15:00Z",
+  "last_updated": "2026-04-16T10:00:00Z",
   "domain": "飞猪酒店套餐产品",
   "product_scope": "频道页 → 酒店日历页 → 套餐详情页 → 套餐SKU浮层 → 下单页",
   "core_goal": "提升D2O转化率",
@@ -32,13 +32,20 @@
       "type": "user_input",
       "raw_file": "raw/user-input-semantics-and-tags.md",
       "ingested_at": "2026-04-14T20:15:00Z"
+    },
+    {
+      "name": "套餐订单系统发放短信梳理",
+      "type": "dingtalk_doc",
+      "url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWmv912lYhEeLBQ0NVGlDd3mE",
+      "raw_file": "raw/dingtalk-sms-notification.md",
+      "ingested_at": "2026-04-16T10:00:00Z"
     }
   ],
   "stats": {
-    "total_pages": 32,
-    "total_sources": 4,
+    "total_pages": 44,
+    "total_sources": 8,
     "entities": 21,
-    "concepts": 3,
+    "concepts": 4,
     "topics": 0,
     "completed_modules": 1
   },

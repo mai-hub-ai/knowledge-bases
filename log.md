@@ -199,3 +199,22 @@
   - srid：房型rate ID
   - nop：人数（number of people）
   - 裸房/含X：不含/含X元素的套餐
+
+## [2026-04-16] ingest | 套餐订单系统发放短信梳理
+- Source type: dingtalk_doc (via MCP)
+- Source URL: https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWmv912lYhEeLBQ0NVGlDd3mE
+- Raw file: raw/dingtalk-sms-notification.md
+- Pages created:
+  - source-sms-notification（源摘要页）
+  - sms-notification（概念页：短信通知）
+- Pages updated: index.md（含重复酒店日历页分区清理）
+- Concepts extracted: 1（短信通知体系）
+- Key insights:
+  - 短信分两大类：订单生命周期通知（9个场景）+ 营销引流（7个场景，4个未配置）
+  - 5个触发系统：triptuan、hotel-fc、tuan-trade、tuan-task、tuan-gateway
+  - 购买提醒和可约提醒存在双系统触发点（triptuan + hotel-fc）
+  - 所有短信遵循"事件通知 + 引流链接 + 拒收回复R"模式
+  - 4个引流场景（商详页/订详页/预约成功页/申请退款页）尚未配置
+- Fix: 清理 index.md 中重复的酒店日历页分区（3处→1处）
+
+[2026-04-16] Quality validation for sms-notification: 7 checks passed, 0 gaps found
