@@ -304,3 +304,23 @@
   - 头部区：酒店销量来自ODPS表book_cnt_td（365天）
   - 头部区：销量<=100不展示，评价量<=100展示具体数
   - 头部区：通兑场景所有SHID加总
+
+## [2026-04-16] ingest + update | 日历页(模块8更名+即买即约/普通日历页)
+- Source type: yuque_doc x2
+- Source URLs:
+  - https://aliyuque.antfin.com/fqicv9/kg7h1z/bxtoecg9t2mswegh （即买即约日历页）
+  - https://aliyuque.antfin.com/fqicv9/kg7h1z/ig1p07zatt5243ys （新旧日历页对比参考）
+- Pages created:
+  - raw/yuque-biy-calendar.md
+  - raw/yuque-old-vs-new-calendar.md
+- Pages updated:
+  - date-selector-area（模块8：日期选择区→日历页）← 更名+完整重写
+  - index.md（模块8更名+状态更新 12/14）
+- Key changes:
+  - 模块8更名：日期选择区 → 日历页（二级页面）
+  - 区分即买即约日历页（useNewCalendar=true，4行布局，可选日期+下单）和普通日历页（useNewCalendar=false，3行布局，仅展示不可选日期和下单）
+  - 即买即约：SKU卡片+房型卡片+份数间晚数+日历+预订总价+引导气泡
+  - 即买即约总价公式：套餐总售价+总补差-立减
+  - 即买即约仅支持整份预约，不支持合并预约
+  - 新旧日历页差异：休标签颜色、节假日展示方式、状态文案位置、升房候补位置等
+  - 接口：酒店日历calendarScene=1，订单预约calendarScene=3
