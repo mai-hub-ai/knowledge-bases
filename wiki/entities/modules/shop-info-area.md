@@ -3,16 +3,17 @@ title: "店铺信息区"
 type: entity
 tags: ["#domain/detail"]
 created: 2026-04-14
-updated: 2026-04-14
-sources: ["raw/detail-page-modules-structure.md"]
+updated: 2026-04-16
+sources:
+  - "raw/detail-page-modules-structure.md"
 module_id: "13"
 module_type: "信息展示模块"
-status: "待补充"
+status: "已补充"
 ---
 # 店铺信息区
 
 ## 概述
-展示酒店/商家店铺信息，包括店铺名称、评分、联系方式等。
+展示 seller 店铺信息，读取 seller 店铺信息透出。细节待后续补充。
 
 ## 核心属性
 
@@ -20,15 +21,11 @@ status: "待补充"
 |------|-----|
 | 模块序号 | 13 |
 | 模块类型 | 信息展示模块 |
-| 文档状态 | ⏳ 待补充 |
-
-## 功能说明
-- 展示店铺名称、Logo
-- 展示店铺评分
-- 入口：联系商家、进店逛逛
+| 数据来源 | seller 店铺信息 |
+| 文档状态 | ✅ 已补充（框架） |
 
 ## 待补充信息
-- [ ] 店铺信息字段
+- [ ] 店铺信息具体字段和展示规则
 - [ ] 入口跳转逻辑
 - [ ] 多端差异
 
