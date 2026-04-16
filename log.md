@@ -218,3 +218,18 @@
 - Fix: 清理 index.md 中重复的酒店日历页分区（3处→1处）
 
 [2026-04-16] Quality validation for sms-notification: 7 checks passed, 0 gaps found
+
+## [2026-04-16] update | 套餐选择区（SKU货架区）详细补充
+- Source type: user_input
+- Pages updated:
+  - package-selector-area（模块10：套餐选择区）← 大幅补充
+  - index.md（模块状态更新 4/14）
+- Key contents added:
+  - SKU卡片四层结构：标题区、标签区、维度信息、住吃享文案
+  - 标题区点击拉起套餐介绍浮层
+  - 标签区按优先级取前3个
+  - SKU维度：加价维度 + 库存可住维度（住x晚，提前x天预约）
+  - 单店/多店分流：可约日历页 vs 可约酒店页
+  - 可约酒店页（二级页面）：搜索栏模糊匹配、酒店档位标签、跳转小搜detail页
+  - 住吃享文案规则（含通兑特殊处理、仅早餐特殊格式）
+  - 即买即约跳转逻辑：囤券→先囤后约下单页 / 预约→即买即约下单页
