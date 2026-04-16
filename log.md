@@ -266,3 +266,21 @@
   - 预约说明字段：可入住日期、不可入住日期、预约开放时间、提前预约天数、是否可拆分、补差价规则
   - 字典新增：summary = 套餐商品信息库，又称ic
   - 字典补充：单店/通兑业务影响新增可住日历、可约酒店页、酒店榜单三行
+
+## [2026-04-16] ingest + update | 会员组件区(模块3更名+内容摄入)
+- Source type: yuque_doc
+- Source URL: https://aliyuque.antfin.com/fqicv9/kg7h1z/edesekqz30582ck7
+- Pages created:
+  - raw/yuque-member-component.md（原始文档保存）
+- Pages updated:
+  - brand-mind-area（模块3：品牌心智区→会员组件区）← 更名+补充完整产品逻辑
+  - index.md（模块3更名+状态更新 9/14）
+- Key changes:
+  - 模块3更名：品牌心智区 → 会员组件区
+  - 会员组件数据由平台会员侧统一下发，套餐侧做前置判断
+  - 两大场景：享会员权益（复用平台组件+会挑定制）/ 不享会员权益（平台下发字段拼接样式）
+  - 会挑前置判断：用户已开通会员 + 套餐含ic tag → 透出会挑信息
+  - 运营配置活动在套餐商品上屏蔽不透出
+  - 二次预约取套餐第一单item id信息（非rate id）
+  - 会挑交易打标：tccp标 k=hotelShowMemberRight
+  - 业务概念：会挑⟂一住升金互斥，会挑必有SNP，会挑必为会员专享
