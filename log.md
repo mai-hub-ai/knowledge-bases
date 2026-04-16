@@ -284,3 +284,23 @@
   - 二次预约取套餐第一单item id信息（非rate id）
   - 会挑交易打标：tccp标 k=hotelShowMemberRight
   - 业务概念：会挑⟂一住升金互斥，会挑必有SNP，会挑必为会员专享
+
+## [2026-04-16] ingest | 商品评价区(12) + 头部信息区(4)
+- Source type: yuque_doc x2
+- Source URLs:
+  - https://aliyuque.antfin.com/fqicv9/kg7h1z/qbf4icqwucfnekgv （评价模块逻辑）
+  - https://aliyuque.antfin.com/fqicv9/kg7h1z/gy47kp5exht47gbo （头部信息-酒店销量、评价标签）
+- Pages created:
+  - raw/yuque-review-module.md
+  - raw/yuque-header-info.md
+- Pages updated:
+  - review-area（模块12：商品评价区）← 双维度评价、单店/通兑差异化、排序规则、跳转锚点、无评价兜底、通兑特殊处理
+  - header-info-area（模块4：头部信息区）← 去除原评分评价分享，新增酒店销量/评价量标签，含展示文案数量级规则、ODPS数据源
+  - index.md（模块状态更新 11/14）
+- Key changes:
+  - 评价区：商品评价默认2条+酒店评价（单店1条/通兑2酒店）
+  - 评价区：通兑酒店排序=热门城市→可约优先→高人气优先→混排
+  - 评价区：通兑特殊处理（评分=0或评价<5时隐藏具体酒店）
+  - 头部区：酒店销量来自ODPS表book_cnt_td（365天）
+  - 头部区：销量<=100不展示，评价量<=100展示具体数
+  - 头部区：通兑场景所有SHID加总
